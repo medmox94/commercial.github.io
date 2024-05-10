@@ -1,0 +1,43 @@
+.container {
+    width: 50%; /* ajustez la largeur */
+    margin: 0 auto; /* centre formulaire horizontal */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: cadetblue;
+}
+
+.form-group1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+#btn {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    float: right; 
+}
+

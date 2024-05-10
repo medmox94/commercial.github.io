@@ -1,0 +1,86 @@
+.list {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.list h2 {
+    margin-top: 0;
+}
+
+.list ul {
+    padding: 0;
+}
+
+.list ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #693030;
+}
+
+.list ul li form {
+    display: inline-block;
+}
+
+
+.list ul li button {
+    background-color: #fff;
+    color: blue;
+    padding: 5px 10px;
+    border: 1px solid rgb(12, 12, 14);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.list ul li button:hover {
+    background-color: rgb(48, 57, 59);
+    color: #fff;
+}
+
+
+
+.list1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.list1 h2 {
+    margin-top: 0;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list1 ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.list1 ul li:last-child {
+    border-bottom: none;
+}
+
+.list1 button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.list1 button:hover {
+    background-color: #45a049;
+}
+
+

@@ -1,0 +1,45 @@
+input[type="text"],
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+}
+input[type="submit"]{
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th{
+    background-color: gray;
+    border: 1px solid lightskyblue;
+    padding: 10px;
+    text-align: left;
+}
+table td{
+    border: 1px solid rgb(45, 68, 82);
+    padding: 10px;
+}
+
+table .total{
+    font-weight: bold;
+    text-align: center;
+
+}

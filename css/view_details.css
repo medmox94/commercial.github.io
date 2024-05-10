@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table td, table th {
+    border-radius: 3px;
+    background-color: teal;
+    padding: 8px;
+}
+
+table th {
+    background-color: #574b4b;
+    text-align: center;
+}
+a:link, a:visited {
+    background-color: red;
+    color: white;
+    
+    display: block;
+    text-align: center;
+    text-decoration:wavy;
+    
+  }
+  a:hover, a:active {
+    background-color: #6d130d;
+    
+  }
